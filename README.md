@@ -22,6 +22,7 @@ curl --location --request POST 'http://localhost/nlipUploadFile' \
 --form 'file=@"C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"' \
 --form 'filepath="D:/TEST/temp/bbk"' \
 --form 'type="ALL"'
+```
 
 ## ✅ 파일 다운로드
 > DOWNLOADFILE
