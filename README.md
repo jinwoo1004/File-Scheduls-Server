@@ -11,7 +11,7 @@
 - `Content-Type`: `multipart/form-data`
 
 ### Form Data
-- `type`: `플랫폼`으로 업로드 시 shpManager.java 호출 → GeoServer 쉐입/레이어 발행 작업 병행
+💡 `type`: `플랫폼`으로 업로드 시 shpManager.java 호출 → GeoServer 쉐입/레이어 발행 작업 병행
 
 | Key      | Value                                                   |
 |----------|---------------------------------------------------------|
@@ -51,7 +51,7 @@ curl --location --request GET 'http://localhost/downloadFile/2110130302.zip'
 - `Content-Type`: `multipart/form-data`
 
 ### Form Data
-- `type`: `플랫폼`으로 업로드 시 shpManager.java 호출 → GeoServer 쉐입/레이어 발행 작업 병행
+💡 `type`: `플랫폼`으로 업로드 시 shpManager.java 호출 → GeoServer 쉐입/레이어 발행 작업 병행
 
 | Key      | Value                                                   |
 |----------|---------------------------------------------------------|
