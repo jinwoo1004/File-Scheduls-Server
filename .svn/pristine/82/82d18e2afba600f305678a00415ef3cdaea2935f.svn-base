@@ -1,0 +1,13 @@
+package kr.nlip.sftm.controller.config;
+
+public class FileDownloadException extends RuntimeException {
+    public FileDownloadException(String message) {
+        super(message);
+    }
+    
+    public FileDownloadException(String message, Throwable cause) {
+        super(message, cause);
+    }
+}
+
+

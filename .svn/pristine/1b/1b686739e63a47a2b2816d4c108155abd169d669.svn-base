@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.8.4.201703310634-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[false]]></enableImports>
+	<configs>
+		<config>src/main/java/com/example/demo/G119FileApiServicesApplicationTests.java</config>
+	</configs>
+	<autoconfigs>
+		<config>java:kr.nlip.sftm.G119FileApiServicesApplication</config>
+		<config>java:com.example.demo.G119FileApiServicesApplication</config>
+	</autoconfigs>
+	<configSets>
+	</configSets>
+</beansProjectDescription>
