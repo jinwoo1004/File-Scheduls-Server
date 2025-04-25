@@ -11,6 +11,8 @@
 - `Content-Type`: `multipart/form-data`
 
 ### Form Data
+- `type`: `플랫폼`으로 업로드 시 shpManager.java 호출 → GeoServer 쉐입/레이어 발행 작업 병행
+
 | Key      | Value                                                   |
 |----------|---------------------------------------------------------|
 | `file`   | 업로드할 파일                                            |
@@ -35,8 +37,7 @@ curl --location --request POST 'http://localhost/nlipUploadFile' \
 **GET** http://localhost/downloadFile/2110130302.zip
 
 ### CURL Example
-bash
-```
+``` bash
 curl --location --request GET 'http://localhost/downloadFile/2110130302.zip'
 ```
 
@@ -50,6 +51,7 @@ curl --location --request GET 'http://localhost/downloadFile/2110130302.zip'
 - `Content-Type`: `multipart/form-data`
 
 ### Form Data
+- `type`: `플랫폼`으로 업로드 시 shpManager.java 호출 → GeoServer 쉐입/레이어 발행 작업 병행
 
 | Key      | Value                                                   |
 |----------|---------------------------------------------------------|
@@ -58,8 +60,7 @@ curl --location --request GET 'http://localhost/downloadFile/2110130302.zip'
 | `type`   | `ALL`(일반) 또는 `NLIP`(플랫폼 호출 시)         |
 
 ### CURL Example
-bash
-```
+``` bash
 curl --location --request POST 'http://localhost/nlipUploadMultipleFiles' \
 --form 'files=@"C:/Users/USER/Desktop/[강원도-양양] 여름힐링휴가.docx"' \
 --form 'files=@"C:/Program Files (x86)/Google/Chrome/Application/chrome_proxy.exe"' \
